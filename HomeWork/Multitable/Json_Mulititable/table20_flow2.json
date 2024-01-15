@@ -1,0 +1,15 @@
+{
+    "dpid": 1,
+    "table_id": 20,
+    "idle_timeout": 0,
+    "hard_timeout": 0,
+    "priority": 100,
+    "match":{
+    },
+    "actions":[
+        {
+            "type":"GOTO_TABLE",
+            "table_id": 30
+        }
+    ]
+}
