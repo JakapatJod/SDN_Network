@@ -1,15 +1,17 @@
 {
     "dpid": 1,
-    "table_id": 20,
+    "table_id": 30,
     "idle_timeout": 0,
     "hard_timeout": 0,
     "priority": 100,
     "match": {
-        "ip_proto": 6
+        "eth_type": 2048,
+        "ipv4_dst": "10.1.1.5",
+        "ip_proto": 1  
     },
     "actions": [
         {
-            "type": "DROP"
+            "type": "DROP"  
         }
     ]
 }

@@ -4,12 +4,13 @@
     "idle_timeout": 0,
     "hard_timeout": 0,
     "priority": 100,
-    "match": {
+    "match":{
+        "eth_type": 2048,
+        "ipv4_dst": "10.1.1.2",
         "ip_proto": 6
     },
-    "actions": [
-        {
-            "type": "DROP"
-        }
+    "actions":[        {
+        "type": "DROP"  
+    }
     ]
 }
